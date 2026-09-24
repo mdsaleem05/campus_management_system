@@ -1,6 +1,6 @@
 package com.campus.service;
 
-import com.campus.model.student;
+import com.campus.model.Student;
 
 public class StudentService {
 

@@ -1,6 +1,6 @@
 package com.campus.model;
 
-public class student{
+public class Student{
     private int studentid;
     private String studentname;
     private int age;
@@ -8,11 +8,11 @@ public class student{
     private int[] marks;
 
     static int studentCount = 0;
-    public student(){
+    public Student(){
         studentCount++;
 
     }
-    public student(int studentid, String studentname, int age, String department, int[] marks){
+    public Student(int studentid, String studentname, int age, String department, int[] marks){
         this.studentid = studentid;
         this.studentname = studentname;
         this.age = age;
